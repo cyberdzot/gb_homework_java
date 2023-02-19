@@ -20,7 +20,7 @@ public class Task_1 {
         bubbleSort(my_array, logger);
     }
 
-    // чистим консоль, раудем глаз :)
+    // чистим консоль, радуем глаз :)
     public static void clearConsole() {
         System.out.print("\033[H\033[J");
     }

@@ -24,7 +24,7 @@ public class Task_2 {
         System.out.print(formattedData);
     }
 
-    // Получение форматированных данных из массива массивов строк
+    // получение форматированных данных из массива массивов строк
     public static String getFormattedData(String[][] data) {
         String[] infoText = new String[] {
                 "Студент ",
@@ -43,7 +43,7 @@ public class Task_2 {
         return sb.toString();
     }
 
-    // Парсинг файла в массив массивов строк
+    // парсинг файла в массив массивов строк
     public static String[][] parseFile(File file) {
         int linesCount = countLines(file);
         int currentIndex = 0;
@@ -75,7 +75,7 @@ public class Task_2 {
         return parsedData;
     }
 
-    // Получение количества строк из файла
+    // получение количества строк из файла
     public static int countLines(File file) {
         int count = 0;
 
@@ -91,7 +91,7 @@ public class Task_2 {
         return count;
     }
 
-    // чистим консоль, раудем глаз :)
+    // чистим консоль, радуем глаз :)
     public static void clearConsole() {
         System.out.print("\033[H\033[J");
     }

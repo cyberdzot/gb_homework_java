@@ -20,7 +20,7 @@ public class Task_3 {
         return true;
     }
 
-    // чистим консоль, раудем глаз :)
+    // чистим консоль, радуем глаз :)
     private static void clearConsole() {
         System.out.print("\033[H\033[J");
     }
