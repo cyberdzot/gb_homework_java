@@ -10,7 +10,7 @@ public class Task_1 {
 
         ArrayList<Integer> myList = new ArrayList<>();
 
-        createRandomListInt(10, 10, myList);
+        createRandomListInt(myList, 10, 10);
         
         showList(myList);
         removeEven(myList);
@@ -29,15 +29,16 @@ public class Task_1 {
 
     // просмотр выбранного списка
     private static void showList(ArrayList<Integer> list) {
-        for (Integer value : list) {
+        for (Integer value : list)
             System.out.print(value + " ");
-        }
+
         System.out.println("");
     }
 
     // создаём произвольный список целых чисел
-    private static void createRandomListInt(int count, int maxValue, ArrayList<Integer> list) {
+    private static void createRandomListInt(ArrayList<Integer> list, int count, int maxValue) {
         Random rand = new Random();
+
         for (int i = 0; i < count; i++)
             list.add(rand.nextInt(maxValue));
     }
