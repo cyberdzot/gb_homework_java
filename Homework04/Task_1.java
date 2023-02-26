@@ -3,8 +3,8 @@ package Homework04;
 import java.util.LinkedList;
 import java.util.Stack;
 
-// Пусть дан LinkedList с несколькими элементами.
-// Реализуйте метод(не void), который вернет “перевернутый” список.
+// * Пусть дан LinkedList с несколькими элементами.
+// * Реализуйте метод(не void), который вернет “перевернутый” список.
 
 public class Task_1 {
     public static void main(String[] args) {
